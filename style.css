@@ -128,3 +128,35 @@ ul, a {
 .thor {
     width: 700px;
 }
+
+.fourthcontainer {
+    display: flex;
+    background-color: #3882f6;
+    width: 1100px;
+    height: 150px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-body {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    font-weight: bolder;
+    font-size: larger;
+    margin: 0;
+}
+
+.button2 {
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 8px 25px;
+    border-width: 2px;
+}
