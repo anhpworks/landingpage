@@ -71,3 +71,41 @@ ul, a {
     padding: 0;
     margin: 0;
 }
+
+.second-body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #6d747e;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3b82f6;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.info {
+    max-width: 190px;
+}
+
+.secondheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.text {
+    padding-left: 20px;
+    padding-top: 10px;
+}
