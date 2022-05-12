@@ -28,3 +28,14 @@ ul, a {
 .first-body {
     display: flex;
 }
+
+.button {
+    display: flex;
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
