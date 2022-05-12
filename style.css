@@ -3,6 +3,7 @@
 }
 body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -11,7 +12,7 @@ body {
     color: #f9faf8;
     font-size: 24px;
     justify-content: space-around;
-    flex: 1 0 900px;
+    flex: 1 0 px;
 }
 
 ul, a {
@@ -22,4 +23,8 @@ ul, a {
     gap: 30px;
     align-items: center;
     font-size: 18px;
+}
+
+.first-body {
+    display: flex;
 }
