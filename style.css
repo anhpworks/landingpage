@@ -11,6 +11,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
     justify-content: space-around;
     flex: 1 0 px;
 }
@@ -23,10 +24,17 @@ ul, a {
     gap: 30px;
     align-items: center;
     font-size: 18px;
+    font-weight: lighter;
 }
 
 .first-body {
     display: flex;
+    padding-bottom: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
 }
 
 .button {
@@ -38,4 +46,28 @@ ul, a {
     align-items: center;
     color: #e5e7eb;
     border-radius: 5px;
+}
+
+.subtext {
+    color: #e5e7eb; 
+    font-size: 18px;
+}
+
+.right-column {
+    background-color: #6d747e;
+    display: flex;
+    padding: 100px;
+    margin-right: 50px;
+}
+
+.left-column {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.bodyheader {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
 }
