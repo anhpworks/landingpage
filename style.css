@@ -74,6 +74,7 @@ ul, a {
 
 .second-body {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -81,6 +82,7 @@ ul, a {
     justify-content: center;
     gap: 40px;
     color: #6d747e;
+    margin-top: 50px;
 }
 
 .box {
@@ -108,4 +110,21 @@ ul, a {
 .text {
     padding-left: 20px;
     padding-top: 10px;
+}
+
+.third-body {
+    background-color: #E5E7EB;
+    height: 500px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor {
+    width: 700px;
 }
