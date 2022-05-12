@@ -4,6 +4,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -159,4 +160,13 @@ ul, a {
     border-radius: 5px;
     padding: 8px 25px;
     border-width: 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
